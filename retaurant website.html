@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maxcom Bites | Gourmet Restaurant</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header/Navigation -->
+    <header class="header">
+        <div class="container">
+            <a href="#" class="logo">Maxcom <span> Bites</span></a>
+            <nav class="navbar">
+                <ul class="nav-list">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#menu">Menu</a></li>
+                    <li><a href="#chefs">Chefs</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <div class="nav-btns">
+                    <a href="#reservation" class="btn btn-reserve">Reservation</a>
+                    <div class="mobile-menu-btn">
+                        <i class="fas fa-bars"></i>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Experience Culinary Excellence</h1>
+                <p>Fresh ingredients, authentic recipes, and unforgettable flavors</p>
+                <div class="hero-btns">
+                    <a href="#menu" class="btn btn-primary">Our Menu</a>
+                    <a href="#reservation" class="btn btn-secondary">Book a Table</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about section-padding" id="about">
+        <div class="container">
+            <div class="section-title">
+                <span>Our Story</span>
+                <h2>About Maxcom Bites</h2>
+            </div>
+            <div class="about-content">
+                <div class="about-img">
+                    <img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Restaurant Interior">
+                </div>
+                <div class="about-text">
+                    <h3>15 Years of Culinary Excellence</h3>
+                    <p>Founded in 2008, Savory Bites has been serving authentic, flavorful dishes made from locally-sourced ingredients. Our chef brings international experience and a passion for creating memorable dining experiences.</p>
+                    <ul class="about-features">
+                        <li><i class="fas fa-check"></i> Fresh, seasonal ingredients</li>
+                        <li><i class="fas fa-check"></i> Handcrafted recipes</li>
+                        <li><i class="fas fa-check"></i> Sustainable practices</li>
+                        <li><i class="fas fa-check"></i> Award-winning chefs</li>
+                    </ul>
+                    <a href="#" class="btn btn-primary">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Special Dishes -->
+    <section class="special-dishes section-padding">
+        <div class="container">
+            <div class="section-title">
+                <span>Specialties</span>
+                <h2>Our Signature Dishes</h2>
+            </div>
+            <div class="dishes-grid">
+                <div class="dish-card">
+                    <div class="dish-img">
+                        <img src="https://images.unsplash.com/photo-1544025162-d76694265947?ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80" alt="Signature Dish">
+                        <div class="price">$24</div>
+                    </div>
+                    <div class="dish-info">
+                        <h3>Grilled Salmon</h3>
+                        <p>Fresh Atlantic salmon with lemon butter sauce, served with seasonal vegetables.</p>
+                        <a href="#" class="btn btn-small">Order Now</a>
+                    </div>
+                </div>
+                <div class="dish-card">
+                    <div class="dish-img">
+                        <img src="https://images.unsplash.com/photo-1559847844-5315695dadae?ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80" alt="Signature Dish">
+                        <div class="price">$28</div>
+                    </div>
+                    <div class="dish-info">
+                        <h3>Filet Mignon</h3>
+                        <p>8oz premium cut with red wine reduction, truffle mashed potatoes.</p>
+                        <a href="#" class="btn btn-small">Order Now</a>
+                    </div>
+                </div>
+                <div class="dish-card">
+                    <div class="dish-img">
+                        <img src="https://images.unsplash.com/photo-1565557623262-b51c2513a641?ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80" alt="Signature Dish">
+                        <div class="price">$18</div>
+                    </div>
+                    <div class="dish-info">
+                        <h3>Truffle Pasta</h3>
+                        <p>Handmade pasta with wild mushrooms and black truffle cream sauce.</p>
+                        <a href="#" class="btn btn-small">Order Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Menu Section -->
+    <section class="menu section-padding" id="menu">
+        <div class="container">
+            <div class="section-title">
+                <span>Delicious</span>
+                <h2>Our Menu</h2>
+            </div>
+            <div class="menu-tabs">
+                <button class="tab-btn active" data-category="all">All</button>
+                <button class="tab-btn" data-category="starters">Starters</button>
+                <button class="tab-btn" data-category="mains">Main Courses</button>
+                <button class="tab-btn" data-category="desserts">Desserts</button>
+                <button class="tab-btn" data-category="drinks">Drinks</button>
+            </div>
+            <div class="menu-items">
+                <!-- Starters -->
+                <div class="menu-item" data-category="starters">
+                    <div class="item-info">
+                        <h3>Bruschetta</h3>
+                        <p>Toasted bread topped with tomatoes, garlic, and fresh basil</p>
+                    </div>
+                    <div class="item-price">$8</div>
+                </div>
+                <div class="menu-item" data-category="starters">
+                    <div class="item-info">
+                        <h3>Calamari</h3>
+                        <p>Crispy fried squid with lemon aioli</p>
+                    </div>
+                    <div class="item-price">$12</div>
+                </div>
+                <!-- Mains -->
+                <div class="menu-item" data-category="mains">
+                    <div class="item-info">
+                        <h3>Chicken Parmesan</h3>
+                        <p>Breaded chicken topped with marinara and mozzarella</p>
+                    </div>
+                    <div class="item-price">$22</div>
+                </div>
+                <div class="menu-item" data-category="mains">
+                    <div class="item-info">
+                        <h3>Beef Bourguignon</h3>
+                        <p>Slow-cooked beef in red wine sauce with mushrooms</p>
+                    </div>
+                    <div class="item-price">$26</div>
+                </div>
+                <!-- Desserts -->
+                <div class="menu-item" data-category="desserts">
+                    <div class="item-info">
+                        <h3>Tiramisu</h3>
+                        <p>Classic Italian dessert with coffee-soaked ladyfingers</p>
+                    </div>
+                    <div class="item-price">$9</div>
+                </div>
+                <div class="menu-item" data-category="desserts">
+                    <div class="item-info">
+                        <h3>Chocolate Lava Cake</h3>
+                        <p>Warm chocolate cake with a molten center, vanilla ice cream</p>
+                    </div>
+                    <div class="item-price">$10</div>
+                </div>
+                <!-- Drinks -->
+                <div class="menu-item" data-category="drinks">
+                    <div class="item-info">
+                        <h3>House Wine</h3>
+                        <p>Glass of our premium selection</p>
+                    </div>
+                    <div class="item-price">$12</div>
+                </div>
+                <div class="menu-item" data-category="drinks">
+                    <div class="item-info">
+                        <h3>Craft Cocktail</h3>
+                        <p>Seasonal ingredients, house-made syrups</p>
+                    </div>
+                    <div class="item-price">$14</div>
+                </div>
+            </div>
+            <div class="menu-btn">
+                <a href="#" class="btn btn-primary">View Full Menu</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Chefs Section -->
+    <section class="chefs section-padding" id="chefs">
+        <div class="container">
+            <div class="section-title">
+                <span>Team</span>
+                <h2>Our Master Chefs</h2>
+            </div>
+            <div class="chefs-grid">
+                <div class="chef-card">
+                    <div class="chef-img">
+                        <img src="https://images.unsplash.com/photo-1581299894007-aaa50297cf16?ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80" alt="Chef">
+                        <div class="chef-social">
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                    <div class="chef-info">
+                        <h3>Michael Rossi</h3>
+                        <span>Head Chef</span>
+                    </div>
+                </div>
+                <div class="chef-card">
+                    <div class="chef-img">
+                        <img src="https://images.unsplash.com/photo-1595476108010-b4d1f102b1b1?ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80" alt="Chef">
+                        <div class="chef-social">
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                    <div class="chef-info">
+                        <h3>Sophia Chen</h3>
+                        <span>Pastry Chef</span>
+                    </div>
+                </div>
+                <div class="chef-card">
+                    <div class="chef-img">
+                        <img src="https://images.unsplash.com/photo-1577219491135-ce391730fb2c?ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80" alt="Chef">
+                        <div class="chef-social">
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                    <div class="chef-info">
+                        <h3>Carlos Mendez</h3>
+                        <span>Sous Chef</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="testimonials section-padding">
+        <div class="container">
+            <div class="section-title">
+                <span>Testimonials</span>
+                <h2>What Our Customers Say</h2>
+            </div>
+            <div class="testimonials-slider">
+                <div class="testimonial active">
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p>"The food was absolutely amazing! Every dish was prepared perfectly and the service was impeccable. Can't wait to come back!"</p>
+                    <div class="customer">
+                        <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="Customer">
+                        <h4>Sarah Johnson</h4>
+                    </div>
+                </div>
+                <div class="testimonial">
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p>"Best dining experience I've had in years. The flavors were incredible and the ambiance was perfect for our anniversary."</p>
+                    <div class="customer">
+                        <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Customer">
+                        <h4>David Thompson</h4>
+                    </div>
+                </div>
+                <div class="testimonial">
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <p>"The attention to detail in every dish shows the chef's passion. The wine pairing suggestions were spot on. Highly recommend!"</p>
+                    <div class="customer">
+                        <img src="https://randomuser.me/api/portraits/women/68.jpg" alt="Customer">
+                        <h4>Emily Rodriguez</h4>
+                    </div>
+                </div>
+                <div class="slider-controls">
+                    <button class="slider-prev"><i class="fas fa-chevron-left"></i></button>
+                    <button class="slider-next"><i class="fas fa-chevron-right"></i></button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section class="gallery section-padding" id="gallery">
+        <div class="container">
+            <div class="section-title">
+                <span>Gallery</span>
+                <h2>Food & Ambiance</h2>
+            </div>
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1546069901-ba9599a7e63c?ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80" alt="Food">
+                    <div class="gallery-overlay">
+                        <i class="fas fa-search-plus"></i>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80" alt="Food">
+                    <div class="gallery-overlay">
+                        <i class="fas fa-search-plus"></i>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1565958011703-44f9829ba187?ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80" alt="Food">
+                    <div class="gallery-overlay">
+                        <i class="fas fa-search-plus"></i>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1482049016688-2d3e1b311543?ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80" alt="Food">
+                    <div class="gallery-overlay">
+                        <i class="fas fa-search-plus"></i>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1484723091739-30a097e8f929?ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80" alt="Food">
+                    <div class="gallery-overlay">
+                        <i class="fas fa-search-plus"></i>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1490645935967-10de6ba17061?ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80" alt="Food">
+                    <div class="gallery-overlay">
+                        <i class="fas fa-search-plus"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Reservation Section -->
+    <section class="reservation section-padding" id="reservation">
+        <div class="container">
+            <div class="section-title">
+                <span>Reservation</span>
+                <h2>Book a Table</h2>
+            </div>
+            <form class="reservation-form">
+                <div class="form-group">
+                    <input type="text" placeholder="Your Name" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" placeholder="Your Email" required>
+                </div>
+                <div class="form-group">
+                    <input type="tel" placeholder="Your Phone" required>
+                </div>
+                <div class="form-group">
+                    <input type="date" placeholder="Date" required>
+                </div>
+                <div class="form-group">
+                    <input type="time" placeholder="Time" required>
+                </div>
+                <div class="form-group">
+                    <select required>
+                        <option value="">Number of People</option>
+                        <option value="1">1 Person</option>
+                        <option value="2">2 People</option>
+                        <option value="3">3 People</option>
+                        <option value="4">4 People</option>
+                        <option value="5">5+ People</option>
+                    </select>
+                </div>
+                <div class="form-group full-width">
+                    <textarea placeholder="Special Requests"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Book Now</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact section-padding" id="contact">
+        <div class="container">
+            <div class="section-title">
+                <span>Contact</span>
+                <h2>Get In Touch</h2>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="info-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h3>Location</h3>
+                            <p>123 Jebel Street, Foodville, FC 12345</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-phone-alt"></i>
+                        <div>
+                            <h3>Phone</h3>
+                            <p>(123) 456-7890</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h3>Email</h3>
+                            <p>info@maxcombites.com</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-clock"></i>
+                        <div>
+                            <h3>Opening Hours</h3>
+                            <p>Mon-Fri: 11AM - 10PM</p>
+                            <p>Sat-Sun: 10AM - 11PM</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.215209179045!2d-73.9878449241641!3d40.75798597138938!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25855c6480299%3A0x55194ec5a1ae072e!2sTimes%20Square!5e0!3m2!1sen!2sus!4v1620000000000!5m2!1sen!2sus" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter -->
+    <section class="newsletter">
+        <div class="container">
+            <div class="newsletter-content">
+                <h3>Subscribe to Our Newsletter</h3>
+                <p>Get updates on special events, new menu items, and exclusive offers.</p>
+                <form class="newsletter-form">
+                    <input type="email" placeholder="Your Email Address" required>
+                    <button type="submit" class="btn btn-primary">Subscribe</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-col">
+                    <h3>Maxcom Bites</h3>
+                    <p>Bringing exceptional dining experiences with fresh, locally-sourced ingredients and innovative culinary techniques.</p>
+                    <div class="footer-social">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-yelp"></i></a>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#menu">Menu</a></li>
+                        <li><a href="#gallery">Gallery</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>Opening Hours</h3>
+                    <ul>
+                        <li>Monday - Friday: 11AM - 10PM</li>
+                        <li>Saturday: 10AM - 11PM</li>
+                        <li>Sunday: 10AM - 9PM</li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>Contact Info</h3>
+                    <ul>
+                        <li><i class="fas fa-map-marker-alt"></i> 123 Gourmet Street, Foodville</li>
+                        <li><i class="fas fa-phone-alt"></i> (123) 456-7890</li>
+                        <li><i class="fas fa-envelope"></i> info@maxcombites.com</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 Maxcom Bites. All Rights Reserved.</p>
+                <div class="footer-links">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <a href="#" class="back-to-top"><i class="fas fa-arrow-up"></i></a>
+
+    <script src="script.js"></script>
+</body>
+</html>
